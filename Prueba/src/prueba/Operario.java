@@ -16,7 +16,10 @@ public class Operario {
         this.Constructor = Constructor;
         this.Horas = Horas;
     }
-
+    
+    public double tarifa_por_hora(){
+        return 50 * Horas;
+    }
     public String getNombre() {
         return Nombre;
     }

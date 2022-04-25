@@ -37,7 +37,8 @@ public class Prueba {
             System.out.println("Ingrese el impuestos del Constructor");
             imp= sc.nextDouble();
             Constructor ct=new Constructor (nom,dom,tel,dni,sueldo,imp);
-            System.out.println(ct.aguinaldo());
+            System.out.println("Sueldo a pagar: "+sueldo);
+            System.out.println("El suedo menos los impuestos es: "+ct.aguinaldo());
         }
         if (e1==2){
             System.out.println("Ingrese el nombre del Consultor");
@@ -54,7 +55,7 @@ public class Prueba {
             System.out.println("Ingrese el horas del Consultor");
             hor= sc.nextInt();
             Consultor cl=new Consultor (nom,dom,tel,dni,tar,hor);
-            System.out.println(cl.tarifa_por_hora());
+            System.out.println("La tarifa por hora es: "+cl.tarifa_por_hora());
         }
         if (e1==3){
             System.out.println("Ingrese el nombre del Operario");
@@ -92,7 +93,8 @@ public class Prueba {
             System.out.println("Ingrese el impuestos del Constructor");
             imp= sc.nextDouble();
             Constructor ct=new Constructor (nom,dom,tel,dni,sueldo,imp);
-            System.out.println(ct.aguinaldo());
+            System.out.println("Sueldo a pagar: "+sueldo);
+            System.out.println("El suedo menos los impuestos es: "+ct.aguinaldo());
         }
         if (e2==2){
             System.out.println("Ingrese el nombre del Consultor");
@@ -109,7 +111,7 @@ public class Prueba {
             System.out.println("Ingrese el horas del Consultor");
             hor= sc.nextInt();
             Consultor cl=new Consultor (nom,dom,tel,dni,tar,hor);
-            System.out.println(cl.tarifa_por_hora());
+            System.out.println("La tarifa por hora es: "+cl.tarifa_por_hora());
         }
         if (e2==3){
             System.out.println("Ingrese el nombre del Operario");
@@ -146,7 +148,8 @@ public class Prueba {
             System.out.println("Ingrese el impuestos del Constructor");
             imp= sc.nextDouble();
             Constructor ct=new Constructor (nom,dom,tel,dni,sueldo,imp);
-            System.out.println(ct.aguinaldo());
+            System.out.println("Sueldo a pagar: "+sueldo);
+            System.out.println("El suedo menos los impuestos es: "+ct.aguinaldo());
         }
         if (e3==2){
             System.out.println("Ingrese el nombre del Consultor");
@@ -163,7 +166,7 @@ public class Prueba {
             System.out.println("Ingrese el horas del Consultor");
             hor= sc.nextInt();
             Consultor cl=new Consultor (nom,dom,tel,dni,tar,hor);
-            System.out.println(cl.tarifa_por_hora());
+            System.out.println("La tarifa por hora es: "+cl.tarifa_por_hora());
         }
         if (e3==3){
             System.out.println("Ingrese el nombre del Operario");
@@ -200,7 +203,8 @@ public class Prueba {
             System.out.println("Ingrese el impuestos del Constructor");
             imp= sc.nextDouble();
             Constructor ct=new Constructor (nom,dom,tel,dni,sueldo,imp);
-            System.out.println(ct.aguinaldo());
+            System.out.println("Sueldo a pagar: "+sueldo);
+            System.out.println("El suedo menos los impuestos es: "+ct.aguinaldo());
         }
         if (e4==2){
             System.out.println("Ingrese el nombre del Consultor");
@@ -217,7 +221,7 @@ public class Prueba {
             System.out.println("Ingrese el horas del Consultor");
             hor= sc.nextInt();
             Consultor cl=new Consultor (nom,dom,tel,dni,tar,hor);
-            System.out.println(cl.tarifa_por_hora());
+            System.out.println("La tarifa por hora es: "+cl.tarifa_por_hora());
         }
         if (e4==3){
             System.out.println("Ingrese el nombre del Operario");
@@ -254,7 +258,8 @@ public class Prueba {
             System.out.println("Ingrese el impuestos del Constructor");
             imp= sc.nextDouble();
             Constructor ct=new Constructor (nom,dom,tel,dni,sueldo,imp);
-            System.out.println(ct.aguinaldo());
+            System.out.println("Sueldo a pagar: "+sueldo);
+            System.out.println("El suedo menos los impuestos es: "+ct.aguinaldo());
         }
         if (e5==2){
             System.out.println("Ingrese el nombre del Consultor");
@@ -271,7 +276,7 @@ public class Prueba {
             System.out.println("Ingrese el horas del Consultor");
             hor= sc.nextInt();
             Consultor cl=new Consultor (nom,dom,tel,dni,tar,hor);
-            System.out.println(cl.tarifa_por_hora());
+            System.out.println("La tarifa por hora es: "+cl.tarifa_por_hora());
         }
         if (e5==3){
             System.out.println("Ingrese el nombre del Operario");
@@ -308,7 +313,8 @@ public class Prueba {
             System.out.println("Ingrese el impuestos del Constructor");
             imp= sc.nextDouble();
             Constructor ct=new Constructor (nom,dom,tel,dni,sueldo,imp);
-            System.out.println(ct.aguinaldo());
+            System.out.println("Sueldo a pagar: "+sueldo);
+            System.out.println("El suedo menos los impuestos es: "+ct.aguinaldo());
         }
         if (e6==2){
             System.out.println("Ingrese el nombre del Consultor");
@@ -325,7 +331,7 @@ public class Prueba {
             System.out.println("Ingrese el horas del Consultor");
             hor= sc.nextInt();
             Consultor cl=new Consultor (nom,dom,tel,dni,tar,hor);
-            System.out.println(cl.tarifa_por_hora());
+            System.out.println("La tarifa por hora es: "+cl.tarifa_por_hora());
         }
         if (e6==3){
             System.out.println("Ingrese el nombre del Operario");
